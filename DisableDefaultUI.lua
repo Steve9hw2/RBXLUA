@@ -1,0 +1,5 @@
+wait()
+pcall(function()
+	local starterGui = game:GetService('StarterGui')
+	starterGui:SetCore("TopbarEnabled", false)
+end)
